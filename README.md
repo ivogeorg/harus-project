@@ -6,10 +6,13 @@ The original dataset can be found on the [UCI Machine Learning Repository site](
 
 ## Transformations
 The transformations comprising the project are performed by the [run_analysis.R script](https://github.com/ivogeorg/harus-project/blob/master/run_analysis.R). The script has inline comments marking out all each major step. In summary, the original dataset, which is split in a 70:30 ratio into training and test sets, is: 
-1. merged, both horizontally, across the train-test dimension, and vertically, along the subject-features-label dimension;
-2. filtered, to retain only the columns for the mean and standard deviation values for 33 feature variables;
-3. summarized, to show each of the variables averaged over each activity for each subject; and
-4. cleaned up, so that variable names and factors are human readable
+1. merged, both horizontally, across the train-test dimension, and vertically, along the subject-features-label dimension;  
+
+2. filtered, to retain only the columns for the mean and standard deviation values for 33 feature variables;  
+
+3. summarized, to show each of the variables averaged over each activity for each subject; and  
+
+4. cleaned up, so that variable names and factors are human readable  
 
 ## Resulting dataset
 The resulting dataset is saved in plain-text space-delimited file [subj_acty_avg.txt](https://github.com/ivogeorg/harus-project/blob/master/data/subj_acty_avg.txt) in the data directory. It can be imported into R/RStudio with *read.table()* with the option *header=TRUE*.
