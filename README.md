@@ -12,4 +12,4 @@ The transformations comprising the project are performed by the [run_analysis.R 
 4. cleaned up, so that variable names and factors are human readable
 
 ## The resulting dataset
-The resulting dataset is saved in plain-text space-delimited [file](https://github.com/ivogeorg/harus-project/blob/master/data/subj_acty_avg.txt) in the data directory. It can be imported into R/RStudio with *read.table()* with the option *header=TRUE*.
+The resulting dataset is saved in plain-text space-delimited file [subj_acty_avg.txt](https://github.com/ivogeorg/harus-project/blob/master/data/subj_acty_avg.txt) in the data directory. It can be imported into R/RStudio with *read.table()* with the option *header=TRUE*.
