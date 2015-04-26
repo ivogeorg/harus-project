@@ -8,7 +8,7 @@ ___
 
     **Data type:** Factor with 6 levels: 'LAYING', 'STANDING', 'SITTING', 'WALKING', 'WALKING_DOWNSTAIRS', 'WALKING_UPSTAIRS'  
 
-    **Description:**  The physical activity performed by the human The human subject carrying the mobile device whose segnals are being sampled for the data collection..  
+    **Description:**  The physical activity performed by the human The human subject carrying the mobile device whose segnals are being sampled for the data collection.  
 
 
 
