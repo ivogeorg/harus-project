@@ -1,3 +1,6 @@
+# Codebook for the harus-project
+---
+
 * activity  
 
     **Data type:** Factor with 6 levels: 'LAYING', 'STANDING', 'SITTING', 'WALKING', 'WALKING_DOWNSTAIRS', 'WALKING_UPSTAIRS'  
